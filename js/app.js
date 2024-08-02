@@ -140,10 +140,12 @@ function checkAnswer(selectedAnswer) {
   if (selectedAnswer === correctAnswer) {
     score++; // Increase the score if the answer is correct
     document.getElementById("result").innerText = "Correct!";
+    document.getElementById("result").style.color = "green";
   } else {
     document.getElementById(
       "result"
     ).innerText = `Wrong! The correct answer was ${correctAnswer}.`;
+    document.getElementById("result").style.color = "red";
   }
 
   // Move to the next question after 1sec delay
