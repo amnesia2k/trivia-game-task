@@ -160,6 +160,7 @@ function endQuiz() {
   document.getElementById(
     "result"
   ).innerText = `You scored ${score} out of ${quizQuestions.length}.`;
+  document.getElementById("result").style.color = "#333";
 }
 
 // Function to restart the quiz
