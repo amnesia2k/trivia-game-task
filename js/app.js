@@ -144,7 +144,7 @@ function checkAnswer(selectedAnswer) {
   } else {
     document.getElementById(
       "result"
-    ).innerText = `Wrong! The correct answer was ${correctAnswer}.`;
+    ).innerText = `Wrong!`;
     document.getElementById("result").style.color = "red";
   }
 
